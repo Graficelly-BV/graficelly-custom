@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/jquery" level="application" />
+    <orderEntry type="library" name="@types/jquery-migrate" level="application" />
+    <orderEntry type="library" name="@types/backbone" level="application" />
+    <orderEntry type="library" name="@types/backbone.marionette" level="application" />
+    <orderEntry type="library" name="@types/backbone.radio" level="application" />
+    <orderEntry type="library" name="@types/wordpress__core-data" level="application" />
+    <orderEntry type="library" name="@types/wordpress__components" level="application" />
+    <orderEntry type="library" name="@types/wordpress__data" level="application" />
+    <orderEntry type="library" name="@types/wordpress__plugins" level="application" />
+    <orderEntry type="library" name="@types/jqueryui" level="application" />
+    <orderEntry type="library" name="@types/underscore" level="application" />
+    <orderEntry type="library" name="@types/react-dom" level="application" />
+    <orderEntry type="library" name="@types/react" level="application" />
+    <orderEntry type="library" name="@types/imagesloaded" level="application" />
+    <orderEntry type="library" name="elementor-common" level="application" />
+    <orderEntry type="library" name="elementor-pro-common" level="application" />
+  </component>
+</module>

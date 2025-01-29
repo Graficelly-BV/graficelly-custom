@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="e013c479-284f-4f90-83eb-41fdefd18572" timeout="30000" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <exclude_path>
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-creative" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-dev" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-display" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-extended" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-fix" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-for-elementor" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-maps" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pdf" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pro-form-actions" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pro-form-conditions" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pro-form-extended" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pro-form-filters" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pro-form-steps" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-pro-payments" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-query" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-template" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-twig" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/e-addons-ui" />
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1/wp-content/plugins/query-monitor" />
+    </exclude_path>
+    <include_path>
+      <path value="$USER_HOME$/Documents/wordpress 6.7.1" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.4" />
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <phpstan_by_interpreter asDefaultInterpreter="true" interpreter_id="e013c479-284f-4f90-83eb-41fdefd18572" timeout="60000" />
+    </PhpStan_settings>
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="Psalm">
+    <Psalm_settings>
+      <psalm_fixer_by_interpreter asDefaultInterpreter="true" interpreter_id="e013c479-284f-4f90-83eb-41fdefd18572" timeout="60000" />
+    </Psalm_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
