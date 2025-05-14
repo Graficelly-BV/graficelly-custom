@@ -23,7 +23,7 @@ function register_graficelly_widgets( Widgets_Manager $widget_manager ) {
 
     if (
         is_plugin_active('elementor-pro/elementor-pro.php') &&
-        is_plugin_active('dynamic-shortcodes/dynamic-shortcodes.php') &&
+        is_plugin_active('dynamic-content-for-elementor/dynamic-content-for-elementor.php') &&
         (
             is_plugin_active('advanced-custom-fields-pro/acf.php') ||
             is_plugin_active('advanced-custom-fields/acf.php')

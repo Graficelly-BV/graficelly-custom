@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Graficelly custom
  * Plugin URI:        https://graficelly.nl
- * Version:           1.2
+ * Version:           1.2.1
  * Author:            Graficelly
  * Author URI:        https://graficelly.nl
  * Text Domain:       graficelly-custom
