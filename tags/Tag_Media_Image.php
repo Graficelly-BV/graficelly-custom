@@ -1,14 +1,15 @@
 <?php
 
-use \Elementor\Controls_Manager;
-use \Elementor\Group_Control_Image_Size;
-use \Elementor\Utils;
+namespace Graficelly;
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
+use Elementor\Controls_Manager;
+use Elementor\Group_Control_Image_Size;
+use Elementor\Utils;
+use Elementor\Core\DynamicTags\Tag;
+use Elementor\Modules\DynamicTags\Module as Tag_Module;
 
-class Elementor_Dynamic_Tag_Media extends \Elementor\Core\DynamicTags\Tag {
+class Tag_Media_Image extends Tag
+{
 
     public function get_name(): string {
         return 'media-image';
@@ -24,11 +25,11 @@ class Elementor_Dynamic_Tag_Media extends \Elementor\Core\DynamicTags\Tag {
 
     public function get_categories(): array {
         return [
-            \Elementor\Modules\DynamicTags\Module::TEXT_CATEGORY,
-            \Elementor\Modules\DynamicTags\Module::URL_CATEGORY,
-            \Elementor\Modules\DynamicTags\Module::IMAGE_CATEGORY,
-            \Elementor\Modules\DynamicTags\Module::URL_CATEGORY,
-            \Elementor\Modules\DynamicTags\Module::MEDIA_CATEGORY,
+            Tag_Module::TEXT_CATEGORY,
+            Tag_Module::URL_CATEGORY,
+            Tag_Module::IMAGE_CATEGORY,
+            Tag_Module::URL_CATEGORY,
+            Tag_Module::MEDIA_CATEGORY,
         ];
     }
 
@@ -222,5 +223,4 @@ class Elementor_Dynamic_Tag_Media extends \Elementor\Core\DynamicTags\Tag {
 
         echo str_replace( '<img ', '<img id="elementor-tag-' . esc_attr( $this->get_id() ) . '" class="' . esc_attr( $settings['_css_classes'] ) . '" ', $value );
     }
-
 }
