@@ -6,6 +6,10 @@ use DynamicContentForElementor\Helper;
 use Elementor\Controls_Manager;
 use ElementorPro\Modules\Carousel\Widgets\Media_Carousel;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
 class Widget_Dynamic_Media_Carousel extends Media_Carousel
 {
     public function get_name() {

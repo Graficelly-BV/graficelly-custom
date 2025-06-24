@@ -8,6 +8,10 @@ use Elementor\Utils;
 use Elementor\Core\DynamicTags\Tag;
 use Elementor\Modules\DynamicTags\Module as Tag_Module;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
 class Tag_Media_Image extends Tag
 {
 

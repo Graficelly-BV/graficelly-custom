@@ -4,6 +4,10 @@ namespace Graficelly;
 
 use Elementor\Widget_Tabs;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
 class Widget_Tabs_Old extends Widget_Tabs
 {
     public function get_title(): string {

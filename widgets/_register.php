@@ -16,6 +16,9 @@ function register_graficelly_widgets( Widgets_Manager $widget_manager ) {
     require_once( __DIR__ . '/Widget_Accordion_Old.php' );
     $widget_manager->register( new Widget_Accordion_Old() );
 
+    require_once( __DIR__ . '/Widget_Button_Alt.php' );
+    $widget_manager->register( new Widget_Button_Alt() );
+
     if (is_plugin_active('dynamic-shortcodes/dynamic-shortcodes.php')) {
         require_once( __DIR__ . '/Widget_Dynamic_Shortcode.php' );
         $widget_manager->register( new Widget_Dynamic_Shortcode() );

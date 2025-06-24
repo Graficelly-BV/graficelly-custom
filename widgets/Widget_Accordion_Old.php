@@ -4,10 +4,14 @@ namespace Graficelly;
 
 use Elementor\Widget_Accordion;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
 class Widget_Accordion_Old extends Widget_Accordion
 {
     public function get_title(): string {
-        return esc_html__( 'Accordion', 'elementor' ) . ' Old';
+        return parent::get_title() . ' Old';
     }
 
     public function show_in_panel(): bool {

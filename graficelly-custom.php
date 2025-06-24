@@ -2,15 +2,15 @@
 /**
  * Plugin Name:       Graficelly custom
  * Plugin URI:        https://graficelly.nl
- * Version:           1.2.1
+ * Version:           1.3.0
  * Author:            Graficelly
  * Author URI:        https://graficelly.nl
  * Text Domain:       graficelly-custom
  * GitHub Plugin URI: https://github.com/Graficelly-BV/graficelly-custom
  *
  * Requires Plugins: elementor
- * Elementor tested up to: 3.26.0
- * Elementor Pro tested up to: 3.26.0
+ * Elementor tested up to: 3.29.2
+ * Elementor Pro tested up to: 3.29.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
