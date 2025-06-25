@@ -25,12 +25,6 @@ class Widget_Dynamic_Media_Carousel extends Media_Carousel
         return true;
     }
 
-    public function get_script_depends(): array {
-        $parent_scripts = parent::get_script_depends();
-        $parent_scripts[] = 'graficelly-dynamic-media-carousel-handler';
-        return $parent_scripts;
-    }
-
     public function get_settings_for_display($setting_key = null)
     {
         $settings = parent::get_settings_for_display($setting_key);
