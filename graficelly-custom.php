@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Graficelly custom
  * Plugin URI:        https://graficelly.nl
- * Version:           1.3.2
+ * Version:           1.3.3
  * Author:            Graficelly
  * Author URI:        https://graficelly.nl
  * Text Domain:       graficelly-custom
@@ -36,7 +36,16 @@ add_action( 'elementor/frontend/before_register_scripts', 'register_graficelly_f
 function enqueue_graficelly_frontend_scripts() {
     $disabled_elements = ElementManagerOptions::get_disabled_elements();
 
-    if (!in_array( 'dynamic-media-carousel', $disabled_elements))
+    if (
+        !in_array( 'dynamic-media-carousel', $disabled_elements) &&
+        is_plugin_active('elementor-pro/elementor-pro.php') &&
+        is_plugin_active('dynamic-content-for-elementor/dynamic-content-for-elementor.php') &&
+        (
+            is_plugin_active('advanced-custom-fields-pro/acf.php') ||
+            is_plugin_active('advanced-custom-fields/acf.php')
+        )
+    ) {
         wp_enqueue_script('graficelly-dynamic-media-carousel-handler');
+    }
 }
 add_action( 'elementor/frontend/before_enqueue_scripts', 'enqueue_graficelly_frontend_scripts', 11 );
