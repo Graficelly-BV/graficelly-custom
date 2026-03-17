@@ -2,15 +2,15 @@
 /**
  * Plugin Name:       Graficelly custom
  * Plugin URI:        https://graficelly.nl
- * Version:           1.3.3
+ * Version:           1.3.4
  * Author:            Graficelly
  * Author URI:        https://graficelly.nl
  * Text Domain:       graficelly-custom
  * GitHub Plugin URI: https://github.com/Graficelly-BV/graficelly-custom
  *
  * Requires Plugins: elementor
- * Elementor tested up to: 3.29.2
- * Elementor Pro tested up to: 3.29.2
+ * Elementor tested up to: 3.35.7
+ * Elementor Pro tested up to: 3.35.1
  */
 
 use Elementor\Modules\ElementManager\Options as ElementManagerOptions;

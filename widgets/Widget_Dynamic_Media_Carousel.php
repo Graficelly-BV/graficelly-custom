@@ -25,9 +25,12 @@ class Widget_Dynamic_Media_Carousel extends Media_Carousel
         return true;
     }
 
-    public function get_settings_for_display($setting_key = null)
+    public function get_parsed_dynamic_settings( $setting = null, $settings = null )
     {
-        $settings = parent::get_settings_for_display($setting_key);
+        $settings = parent::get_parsed_dynamic_settings($setting, $settings);
+
+        if ($settings == null)
+            return $settings;
 
         $id = Helper::get_acf_source_id($settings['acf_gallery_from'], $settings['other_post_source'] ?? false);
 
@@ -47,7 +50,9 @@ class Widget_Dynamic_Media_Carousel extends Media_Carousel
                     'id' => $slideId,
                     'image_link_to_type' => '',
                     'type' => 'image'
-                ]
+                ],
+                'image_link_to_type' => '',
+                'type' => 'image'
             ];
         }, $acf_gallery);
 
